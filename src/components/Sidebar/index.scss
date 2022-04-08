@@ -47,7 +47,7 @@ nav {
     }
 
     &:hover {
-      color: rgb(255, 153, 0);
+      color: rgb(218, 216, 115);
 
       svg {
         opacity: 0;
@@ -92,7 +92,7 @@ nav {
 
   a.active {
     svg {
-      color: rgb(255, 153, 0);
+      color: rgb(218, 216, 115);
     }
   }
 }
@@ -115,7 +115,7 @@ ul {
       line-height: 16px;
 
       &:hover svg {
-        color: rgb(255, 153, 0);
+        color: rgb(218, 216, 115);
       }
     }
   }
