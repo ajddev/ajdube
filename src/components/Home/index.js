@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
+import Logo from './Logo'
 import './index.scss'
 
 const Home = () => {
@@ -23,10 +24,14 @@ const Home = () => {
     '.',
   ]
 
-  useEffect(() => {
-    return setTimeout(() => {
+  const noReturn = function () {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 4000)
+  }
+
+  useEffect(() => {
+    noReturn()
   }, [])
 
   return (
@@ -55,6 +60,7 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
+      <Logo />
     </div>
   )
 }
