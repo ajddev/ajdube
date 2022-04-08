@@ -10,7 +10,7 @@ const Layout = () => {
         <span className="tags top-tags">
           &lt;html&gt;
           <br />
-          &lt;body&gt;
+          <span className="top-tag-body">&lt;body&gt;</span>
         </span>
 
         <Outlet />

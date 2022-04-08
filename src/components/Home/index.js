@@ -6,7 +6,22 @@ import './index.scss'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = [' ', 'A', 'n', 't', 'h', 'o', 'n', 'y']
+  const nameArray = [
+    ' ',
+    'A',
+    'n',
+    't',
+    'h',
+    'o',
+    'n',
+    'y',
+    ' ',
+    'D',
+    'u',
+    'b',
+    'e',
+    ',',
+  ]
   const jobArray = [
     'w',
     'e',
@@ -27,7 +42,7 @@ const Home = () => {
   const noReturn = function () {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 4000)
+    }, 6000)
   }
 
   useEffect(() => {
@@ -39,23 +54,33 @@ const Home = () => {
       <div className="text-zone">
         <h1>
           <span className={letterClass}>H</span>
-          <span className={`${letterClass} _12`}>i,</span>
+          <span className={`${letterClass} _12`}>e</span>
+          <span className={`${letterClass} _13`}>l</span>
+          <span className={`${letterClass} _14`}>l</span>
+          <span className={`${letterClass} _15`}>o</span>
+          <span className={`${letterClass} _16`}> </span>
+          <span className={`${letterClass} _17`}>W</span>
+          <span className={`${letterClass} _18`}>o</span>
+          <span className={`${letterClass} _19`}>r</span>
+          <span className={`${letterClass} _20`}>l</span>
+          <span className={`${letterClass} _21`}>d</span>
+          <span className={`${letterClass} _22`}>!</span>
           <br />
-          <span className={`${letterClass} _13`}>I</span>
-          <span className={`${letterClass} _14`}>'m</span>
+          <span className={`${letterClass} _23`}>I</span>
+          <span className={`${letterClass} _24`}>'m</span>
           <AnimatedLetters
             letterClass={letterClass}
             strArray={nameArray}
-            idx={15}
+            idx={25}
           />
           <br />
           <AnimatedLetters
             letterClass={letterClass}
             strArray={jobArray}
-            idx={23}
+            idx={39}
           />
         </h1>
-        <h2>Aspiring Software Developer</h2>
+        <h2>Digital Creator / Full Stack Developer</h2>
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
