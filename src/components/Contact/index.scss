@@ -1,0 +1,80 @@
+.contact-form {
+  width: 100%;
+  margin-top: 50px;
+  display: block;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      display: block;
+      position: relative;
+      opacity: 0;
+      animation: fadeInUp 2s 2s;
+      animation-fill-mode: forwards;
+      clear: both;
+    }
+
+    li.half {
+      width: 98%;
+      margin-left: 2%;
+      float: left;
+      clear: both;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.test {
+  display: flex;
+}
+
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+  border: 0;
+  background: #efeeb4;
+  height: 50px;
+  font-size: 16px;
+  color: #000;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 98%;
+  margin-left: 2%;
+  border: 0;
+  background: #efeeb4;
+  font-size: 16px;
+  color: #000;
+  padding: 20px;
+  box-sizing: border-box;
+  animation: fadeInUp 2s 2s;
+  animation-fill-mode: forwards;
+}
+
+.flat-button {
+  color: #ffd700;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: 1px solid #ffd700;
+  float: left;
+  border-radius: 4px;
+  background: 0 0;
+  text-transform: uppercase;
+  float: right;
+  text-align: center;
+  margin-right: 10px;
+}

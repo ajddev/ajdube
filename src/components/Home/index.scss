@@ -58,7 +58,7 @@ h2 {
   padding: 10px 18px;
   border: 1px solid rgb(218, 216, 115);
   margin-top: 25px;
-  float: left;
+  float: left !important;
   animation: fadeIn 1s 1.8s backwards;
   white-space: nowrap;
 
