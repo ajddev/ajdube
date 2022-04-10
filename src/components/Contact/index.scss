@@ -78,3 +78,39 @@ textarea {
   text-align: center;
   margin-right: 10px;
 }
+
+.info-map {
+  position: absolute;
+  background-color: #000;
+  top: 50px;
+  right: 30%;
+  z-index: 999999;
+  width: 267px;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Helvetica';
+  font-size: 17px;
+  font-weight: 300;
+  animation: fadeIn 1s 1.5s;
+  animation-fill-mode: forwards;
+
+  span {
+    font-size: 16px;
+  }
+}
+
+.map-wrap {
+  background: rgba($color: #454d66, $alpha: 0.6);
+  float: right;
+  width: 50%;
+  height: 115%;
+  margin-top: -3%;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  animation: backInRight 1s 1.2s;
+  animation-fill-mode: forwards;
+}
