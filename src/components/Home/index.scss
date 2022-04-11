@@ -67,3 +67,13 @@ h2 {
     color: rgb(34, 34, 34);
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .home-page {
+    .text-zone {
+      top: 300px;
+      left: 75px;
+      width: 100%;
+    }
+  }
+}

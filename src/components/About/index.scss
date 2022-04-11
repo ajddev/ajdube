@@ -79,3 +79,9 @@
     transform: rotateX(90deg);
   }
 }
+
+.colored {
+  &:hover {
+    color: #fff;
+  }
+}

@@ -34,7 +34,13 @@
   }
 }
 
-.test {
+.colored {
+  &:hover {
+    color: #fff;
+  }
+}
+
+.name-email {
   display: flex;
 }
 
@@ -79,6 +85,10 @@ textarea {
   margin-right: 10px;
 }
 
+.right {
+  float: right !important;
+}
+
 .info-map {
   position: absolute;
   background-color: #000;
@@ -102,7 +112,7 @@ textarea {
 .map-wrap {
   background: rgba($color: #454d66, $alpha: 0.6);
   float: right;
-  width: 50%;
+  width: 45%;
   height: 115%;
   margin-top: -3%;
 }

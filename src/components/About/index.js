@@ -17,7 +17,7 @@ const About = () => {
 
   function noReturn() {
     setTimeout(() => {
-      setLetterClass('text-animate-hover')
+      setLetterClass('text-animate-hover colored')
     }, 4000)
   }
 

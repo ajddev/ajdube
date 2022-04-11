@@ -11,7 +11,7 @@ const Contact = () => {
 
   function noReturn() {
     setTimeout(() => {
-      setLetterClass('text-animate-hover')
+      setLetterClass('text-animate-hover colored')
     }, 3000)
   }
 
@@ -58,7 +58,7 @@ const Contact = () => {
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
               <ul>
-                <div className="test">
+                <div className="name-email">
                   <li className="half">
                     <input
                       type="text"
@@ -90,7 +90,7 @@ const Contact = () => {
                 <li>
                   <input
                     type="submit"
-                    className="flat-button"
+                    className="flat-button right"
                     value="submit"
                   ></input>
                 </li>
