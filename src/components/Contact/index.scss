@@ -1,3 +1,11 @@
+.container.about-page .text-zone p,
+.container.contact-page .text-zone p {
+  min-width: 0;
+  width: 100%;
+  font-size: 125%;
+  transform: translateX(2%);
+}
+
 .contact-form {
   width: 100%;
   margin-top: 50px;
@@ -93,7 +101,7 @@ textarea {
   position: absolute;
   background-color: #000;
   top: 50px;
-  right: 30%;
+  right: 20%;
   z-index: 999999;
   width: 267px;
   padding: 20px;
@@ -123,4 +131,29 @@ textarea {
   position: relative;
   animation: backInRight 1s 1.2s;
   animation-fill-mode: forwards;
+}
+
+@media only screen and (max-width: 768px) {
+  .container.about-page .text-zone,
+  .container.contact-page .text-zone {
+    width: 100%;
+  }
+
+  .container.about-page .text-zone p,
+  .container.contact-page .text-zone p {
+    min-width: 0;
+    width: 90%;
+    font-size: 150%;
+    transform: translateX(-7%);
+  }
+
+  .contact-form {
+    width: 90%;
+    transform: translateX(-10%);
+  }
+
+  .info-map,
+  .map-wrap {
+    display: none;
+  }
 }

@@ -7,9 +7,9 @@ import {
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 
-const Socials = () => {
+const Socials = ({ mobile }) => {
   return (
-    <ul>
+    <ul className={mobile}>
       <li>
         <a
           target="_blank"
