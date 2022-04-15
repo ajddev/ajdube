@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ajdube/static/css/main.205c0c85.css",
+    "main.js": "/ajdube/static/js/main.f3cb506f.js",
+    "static/media/logo-sig.png": "/ajdube/static/media/logo-sig.cbb6bc4f4dccd4174951.png",
+    "static/media/helvetica-neu.ttf": "/ajdube/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/logo-ajd.png": "/ajdube/static/media/logo-ajd.a39ac1b676e682e82e1b.png",
+    "static/media/LaBelleAurore.woff2": "/ajdube/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/ajdube/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/ajdube/index.html",
+    "main.205c0c85.css.map": "/ajdube/static/css/main.205c0c85.css.map",
+    "main.f3cb506f.js.map": "/ajdube/static/js/main.f3cb506f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.205c0c85.css",
+    "static/js/main.f3cb506f.js"
+  ]
+}
