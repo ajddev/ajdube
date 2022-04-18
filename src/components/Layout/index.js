@@ -1,28 +1,50 @@
-import { Outlet } from 'react-router-dom'
-import './index.scss'
-import Sidebar from '../Sidebar'
+import { Outlet } from "react-router-dom";
+import "./index.scss";
+import NavigationBar from "../NavigationBar";
+import { useEffect, useState } from "react";
+import Loader from "../Loader";
+import Footer from "../Footer";
 
 const Layout = () => {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
+
   return (
     <div className="App">
-      <Sidebar />
-      <div className="page">
-        <span className="tags top-tags">
-          &lt;html&gt;
-          <br />
-          <span className="top-tag-body">&lt;body&gt;</span>
-        </span>
+      {loading ? (
+        <div className="loader-container">
+          <Loader />
+        </div>
+      ) : (
+        <>
+          <div className="wrapper">
+            <NavigationBar />
+            <div className="page">
+              <span className="tags top-tags">
+                &lt;html&gt;
+                <br />
+                <span className="top-tag-body">&lt;body&gt;</span>
+              </span>
 
-        <Outlet />
+              <Outlet />
 
-        <span className="tags bottom-tags">
-          &lt;/body&gt;
-          <br />
-          <span className="bottom-tag-html">&lt;/html&gt;</span>
-        </span>
-      </div>
+              <span className="tags bottom-tags">
+                <span className="bottom-tag-body">&lt;/body&gt;</span>
+                <br />
+                &lt;/html&gt;
+              </span>
+            </div>
+            <Footer />
+          </div>
+        </>
+      )}
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

@@ -1,15 +1,15 @@
-import './index.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "./index.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faGithub,
   faDribbble,
   faTwitter,
-} from '@fortawesome/free-brands-svg-icons'
+} from "@fortawesome/free-brands-svg-icons";
 
-const Socials = ({ mobile }) => {
+const Socials = () => {
   return (
-    <ul className={mobile}>
+    <ul>
       <li>
         <a
           target="_blank"
@@ -35,7 +35,6 @@ const Socials = ({ mobile }) => {
         </a>
       </li>
     </ul>
-  )
-}
-
-export default Socials
+  );
+};
+export default Socials;

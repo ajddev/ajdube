@@ -1,53 +1,53 @@
-import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
-import './index.scss'
+import "./index.scss";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import AnimatedLetters from "../AnimatedLetters";
+import CubeSpinner from "../CubeSpinner";
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState("text-animate");
   const nameArray = [
-    ' ',
-    'A',
-    'n',
-    't',
-    'h',
-    'o',
-    'n',
-    'y',
-    ' ',
-    'D',
-    'u',
-    'b',
-    'e',
-    ',',
-  ]
+    " ",
+    "A",
+    "n",
+    "t",
+    "h",
+    "o",
+    "n",
+    "y",
+    " ",
+    "D",
+    "u",
+    "b",
+    "e",
+    ",",
+  ];
   const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+    "w",
+    "e",
+    "b",
+    " ",
+    "d",
+    "e",
+    "v",
+    "e",
+    "l",
+    "o",
+    "p",
+    "e",
+    "r",
+    ".",
+  ];
 
   const noReturn = function () {
     setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 6000)
-  }
+      setLetterClass("text-animate-hover");
+    }, 6000);
+  };
 
   useEffect(() => {
-    noReturn()
-  }, [])
+    noReturn();
+  }, []);
 
   return (
     <div className="container home-page">
@@ -85,9 +85,9 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
-      <Logo />
+      <CubeSpinner />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
