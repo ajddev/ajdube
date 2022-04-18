@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ajdube/static/css/main.205c0c85.css",
-    "main.js": "/ajdube/static/js/main.ce841f70.js",
-    "static/media/logo-sig.png": "/ajdube/static/media/logo-sig.cbb6bc4f4dccd4174951.png",
+    "main.css": "/ajdube/static/css/main.c4955e4e.css",
+    "main.js": "/ajdube/static/js/main.3bd673c8.js",
+    "static/media/me.jpg": "/ajdube/static/media/me.9d48977df02d9fb1f7e8.jpg",
     "static/media/helvetica-neu.ttf": "/ajdube/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/logo-ajd.png": "/ajdube/static/media/logo-ajd.a39ac1b676e682e82e1b.png",
     "static/media/LaBelleAurore.woff2": "/ajdube/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/ajdube/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/ajd.svg": "/ajdube/static/media/ajd.7039ba10b6a68cf32b48b14b93c109df.svg",
     "index.html": "/ajdube/index.html",
-    "main.205c0c85.css.map": "/ajdube/static/css/main.205c0c85.css.map",
-    "main.ce841f70.js.map": "/ajdube/static/js/main.ce841f70.js.map"
+    "main.c4955e4e.css.map": "/ajdube/static/css/main.c4955e4e.css.map",
+    "main.3bd673c8.js.map": "/ajdube/static/js/main.3bd673c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.205c0c85.css",
-    "static/js/main.ce841f70.js"
+    "static/css/main.c4955e4e.css",
+    "static/js/main.3bd673c8.js"
   ]
 }
