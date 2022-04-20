@@ -6,7 +6,7 @@ const Loader = () => {
     const el = document.getElementById("ajd");
     el.classList.add("finished");
     setTimeout(() => {
-      el.style.animation = "fadeOut 8s";
+      el.style.animation = "fadeOut 2s";
     }, 1000);
   }
   return (
@@ -16,8 +16,7 @@ const Loader = () => {
         file: svg,
         type: "sync",
         animTimingFunction: "EASE",
-        duration: 200,
-        fill: "white",
+        duration: 100,
       }}
       style={{ height: "300px", width: "250px" }}
       callback={done}

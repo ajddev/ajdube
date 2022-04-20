@@ -5,14 +5,14 @@
 
 #ajd {
   fill-opacity: 0;
-  transition: fill-opacity 0.1s;
+  transition: fill-opacity 1s;
 }
 .finished {
-  fill-opacity: 1;
+  fill-opacity: 1 !important;
 }
 
 .wrapper {
-  animation: fadeIn 2s;
+  animation: fadeIn 4s;
 }
 
 .page {

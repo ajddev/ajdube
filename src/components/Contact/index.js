@@ -35,14 +35,14 @@ const Contact = () => {
           >
             <div className="form-container">
               <div className="name-email">
-                <input type="text" name="name" placeholder="name" required />
-                <input type="email" name="email" placeholder="email" required />
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
               </div>
             </div>
             <div className="form-container">
               <div className="name-email">
                 <textarea
-                  placeholder="message"
+                  placeholder="Message"
                   name="message"
                   required
                 ></textarea>
