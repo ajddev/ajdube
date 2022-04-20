@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ajdube/static/css/main.ac28c4cc.css",
-    "main.js": "/ajdube/static/js/main.6133485c.js",
+    "main.css": "/ajdube/static/css/main.b503232d.css",
+    "main.js": "/ajdube/static/js/main.44f71a74.js",
     "static/media/me.jpg": "/ajdube/static/media/me.9d48977df02d9fb1f7e8.jpg",
     "static/media/helvetica-neu.ttf": "/ajdube/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/ajdube/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/ajdube/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/ajd.svg": "/ajdube/static/media/ajd.7039ba10b6a68cf32b48b14b93c109df.svg",
     "index.html": "/ajdube/index.html",
-    "main.ac28c4cc.css.map": "/ajdube/static/css/main.ac28c4cc.css.map",
-    "main.6133485c.js.map": "/ajdube/static/js/main.6133485c.js.map"
+    "main.b503232d.css.map": "/ajdube/static/css/main.b503232d.css.map",
+    "main.44f71a74.js.map": "/ajdube/static/js/main.44f71a74.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac28c4cc.css",
-    "static/js/main.6133485c.js"
+    "static/css/main.b503232d.css",
+    "static/js/main.44f71a74.js"
   ]
 }
