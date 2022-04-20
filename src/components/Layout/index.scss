@@ -3,6 +3,14 @@
   height: 100%;
 }
 
+#ajd {
+  fill-opacity: 0;
+  transition: fill-opacity 0.1s;
+}
+.finished {
+  fill-opacity: 1;
+}
+
 .wrapper {
   animation: fadeIn 2s;
 }
