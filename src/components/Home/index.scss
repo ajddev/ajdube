@@ -5,8 +5,10 @@
 .home-page {
   .text-zone {
     position: absolute;
-    width: 40%;
+    width: 100%;
     height: auto;
+    text-align: center;
+    top: 100px;
   }
   h1 {
     color: #fff;
@@ -40,8 +42,8 @@
 h2 {
   color: #8e8e8e;
   margin: 20px;
-  font-weight: 400;
-  font-size: 11px;
+  font-weight: 300;
+  font-size: 80%;
   font-family: sans-serif;
   letter-spacing: 3px;
   animation: fadeIn 1s 1s backwards;
@@ -66,12 +68,44 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .home-page {
-    .text-zone {
-      top: 100px;
-      width: 100%;
-      text-align: center;
+@media only screen and (min-width: 600px) {
+  .home-page,
+  .about-page,
+  .contact-page {
+    h1 {
+      &::before {
+        left: 20%;
+      }
+      &::after {
+        right: 20%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .home-page,
+  .about-page,
+  .contact-page {
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 100%;
+      padding-bottom: 2%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .home-page,
+  .about-page,
+  .contact-page {
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 110%;
     }
   }
 }

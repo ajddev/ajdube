@@ -1,36 +1,23 @@
 ul {
   width: 100%;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0;
   list-style: none;
   margin: 0;
   height: 100%;
 
   li {
+    padding: 0 10%;
     a {
       padding: 0;
-      display: block;
       font-size: 15px;
       line-height: 16px;
+      height: 100%;
 
       &:hover svg {
         color: rgb(218, 216, 115);
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    li {
-      padding: 0 10%;
-
-      a {
-        height: 100%;
       }
     }
   }
