@@ -71,7 +71,8 @@ h2 {
 @media only screen and (min-width: 600px) {
   .home-page,
   .about-page,
-  .contact-page {
+  .contact-page,
+  .projects-page {
     h1 {
       &::before {
         left: 20%;
@@ -86,7 +87,8 @@ h2 {
 @media only screen and (min-width: 750px) {
   .home-page,
   .about-page,
-  .contact-page {
+  .contact-page,
+  .projects-page {
     h1 {
       font-size: 40px;
     }
@@ -100,7 +102,8 @@ h2 {
 @media only screen and (min-width: 1000px) {
   .home-page,
   .about-page,
-  .contact-page {
+  .contact-page,
+  .projects-page {
     h1 {
       font-size: 50px;
     }

@@ -48,7 +48,7 @@ const About = () => {
           </div>
         </div>
         <div className="image-wrapper">
-          <img className="pic" src={Me} />
+          <img className="pic" src={Me} alt="" />
         </div>
       </div>
     </>

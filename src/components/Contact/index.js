@@ -27,7 +27,9 @@ const Contact = () => {
             />
           </h1>
           <h2>
-            Let's build something great together! I'd love to hear from you.
+            I'm interested in all projects, big or small. Do you have the next
+            great website or app idea? Need some help building your brand? Let's
+            make something great together! I'd love to hear from you.
           </h2>
           <div className="form-wrap">
             <form

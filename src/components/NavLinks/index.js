@@ -1,7 +1,12 @@
 import "./index.scss";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faFolderOpen,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
   return (
@@ -16,6 +21,14 @@ const Navigation = () => {
         to="/about"
       >
         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+      </NavLink>
+      <NavLink
+        exact="true"
+        activeclassname="active"
+        className="projects-link"
+        to="/projects"
+      >
+        <FontAwesomeIcon icon={faFolderOpen} color="rgb(77,77,78)" />
       </NavLink>
       <NavLink
         exact="true"

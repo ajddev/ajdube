@@ -1,5 +1,6 @@
 .about-page,
-.contact-page {
+.contact-page,
+.projects-page {
   .text-zone {
     top: 15%;
     width: 100%;
@@ -19,7 +20,7 @@
       font-size: 50%;
       position: absolute;
       opacity: 0.5;
-      left: 30%;
+      left: 20%;
     }
 
     &::after {
@@ -29,7 +30,7 @@
       font-size: 50%;
       position: absolute;
       opacity: 0.5;
-      right: 30%;
+      right: 20%;
     }
   }
   h2 {
